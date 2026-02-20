@@ -132,6 +132,10 @@ LEVELS = {
     "easy": 30,       # Many cells pre-filled → easier
     "medium": 200,    # Moderate cells filled → medium
     "hard": 700,      # Few cells pre-filled → harder
+    "expert": 1000,
+    "master": 1200,
+    "hackerman": 1500,
+    "god": 2000,
 }
 
 
@@ -167,6 +171,10 @@ def select_level() -> str:
     print("  1. Easy")
     print("  2. Medium")
     print("  3. Hard")
+    print("  4. Expert")
+    print("  5. Master")
+    print("  6. Hackerman")
+    print("  7. God")
     print()
     while True:
         choice = input("Enter choice (1/2/3) or 'q' to quit: ").strip().lower()
@@ -178,8 +186,16 @@ def select_level() -> str:
             return "medium"
         elif choice == "3":
             return "hard"
+        elif choice == "4":
+            return "expert"
+        elif choice == "5":
+            return "master"
+        elif choice == "6":
+            return "hackerman"
+        elif choice == "7":
+            return "god"
         else:
-            print("Invalid choice. Please enter 1, 2, 3, or 'q'.")
+            print("Invalid choice. Please enter 1, 2, 3, 4, 5, 6, 7, or 'q'.")
 
 
 if __name__ == "__main__":
