@@ -32,10 +32,11 @@ Consisting of 3 programs:
 - Assignment3_Sudoku.pdf
 
 
+-------------------------------------
 
 
 
-รายงาน Programming Assignment 3
+##รายงาน Programming Assignment 3
 การพัฒนาโปรแกรมแก้ปัญหา Sudoku ด้วย Backtracking และ MRV Heuristic
 
 
