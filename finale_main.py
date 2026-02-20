@@ -177,7 +177,7 @@ def select_level() -> str:
     print("  7. God")
     print()
     while True:
-        choice = input("Enter choice (1/2/3) or 'q' to quit: ").strip().lower()
+        choice = input("Enter choice (1/2/3/4/5/6/7) or 'q' to quit: ").strip().lower()
         if choice == "q":
             sys.exit(0)
         if choice == "1":
